@@ -1,0 +1,49 @@
+ISIS SCHEMATIC DESCRIPTION FORMAT 6.1
+=====================================
+Design:   C:\Documents and Settings\Administrateur\Bureau\neobot\Electronique\Cartes\Cartes 2010\carte servo\add on carte ser servo AC60.DSN
+Doc. no.: <NONE>
+Revision: <NONE>
+Author:   <NONE>
+Created:  12/04/11
+Modified: 12/04/11
+
+*PROPERTIES,0    
+
+*MODELDEFS,0    
+
+*PARTLIST,4    
+D1,1N4007,1N4007,EID=2,PACKAGE=DO41
+J1,CONN-SIL3,CONN-SIL3,EID=4,PACKAGE=CONN-SIL3
+RL1,RELAY,12V,EID=1,PACKAGE=RLY-OEG-OMI-C,RCOIL=240,RCONTACT=100m
+U1,"TRACO 15W","TRACO 15W",EID=3,PACKAGE="TRACO 15W"
+
+*NETLIST,6    
+#00000,2
+RL1,PS,3
+J1,PS,2
+
+#00001,1
+RL1,PS,4
+
+#00002,2
+RL1,PS,5
+U1,PS,+Vout
+
+#00003,3
+RL1,PS,1
+D1,PS,K
+U1,PS,+Vin
+
+#00004,1
+J1,PS,1
+
+GND,6,STRAT=POWER
+GND,PR
+J1,PS,3
+U1,PS,-Vout
+U1,PS,-Vin
+RL1,PS,2
+D1,PS,A
+
+*GATES,0    
+
