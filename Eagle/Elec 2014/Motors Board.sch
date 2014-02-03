@@ -14581,20 +14581,20 @@ Resettable Fuse. Spark Fun Electronics SKU : COM-08357</description>
 <part name="GND5" library="supply1" deviceset="GND" device=""/>
 <part name="GND6" library="supply1" deviceset="GND" device=""/>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
-<part name="R2" library="rcl" deviceset="R-EU_" device="R0603" value="1k"/>
-<part name="R3" library="rcl" deviceset="R-EU_" device="R0603" value="1k"/>
-<part name="R4" library="rcl" deviceset="R-EU_" device="R0603" value="1k"/>
-<part name="R8" library="rcl" deviceset="R-EU_" device="R0603" value="10k"/>
+<part name="R2" library="rcl" deviceset="R-EU_" device="R0603" value="68"/>
+<part name="R3" library="rcl" deviceset="R-EU_" device="R0603" value="68"/>
+<part name="R4" library="rcl" deviceset="R-EU_" device="R0603" value="68"/>
+<part name="R8" library="rcl" deviceset="R-EU_" device="R0603" value="1k"/>
 <part name="R9" library="rcl" deviceset="R-EU_" device="R0603" value="10k"/>
-<part name="R10" library="rcl" deviceset="R-EU_" device="R0603" value="470"/>
+<part name="R10" library="rcl" deviceset="R-EU_" device="R0603" value="10k"/>
 <part name="GND11" library="supply1" deviceset="GND" device=""/>
 <part name="5V_REG" library="v-reg" deviceset="MIC5239" device=""/>
-<part name="R5" library="rcl" deviceset="R-EU_" device="R0603" value="470"/>
+<part name="R5" library="rcl" deviceset="R-EU_" device="R0603" value="10k"/>
 <part name="R6" library="rcl" deviceset="R-EU_" device="R0603" value="10k"/>
-<part name="R7" library="rcl" deviceset="R-EU_" device="R0603" value="10k"/>
-<part name="R11" library="rcl" deviceset="R-EU_" device="R0603" value="1k"/>
-<part name="R12" library="rcl" deviceset="R-EU_" device="R0603" value="1k"/>
-<part name="R13" library="rcl" deviceset="R-EU_" device="R0603" value="1k"/>
+<part name="R7" library="rcl" deviceset="R-EU_" device="R0603" value="1k"/>
+<part name="R11" library="rcl" deviceset="R-EU_" device="R0603" value="68"/>
+<part name="R12" library="rcl" deviceset="R-EU_" device="R0603" value="68"/>
+<part name="R13" library="rcl" deviceset="R-EU_" device="R0603" value="68"/>
 <part name="C9" library="rcl" deviceset="C-EU" device="C0603" value="10nF"/>
 <part name="C10" library="rcl" deviceset="C-EU" device="C0603" value="10nF"/>
 <part name="GND15" library="supply1" deviceset="GND" device=""/>

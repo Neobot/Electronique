@@ -1784,19 +1784,19 @@ Please make sure your boards conform to these design rules.</description>
 <element name="R1" library="rcl" package="R0603" value="470" x="42.05" y="10.55" smashed="yes" rot="R270">
 <attribute name="VALUE" x="40.145" y="11.185" size="1.27" layer="27" rot="R270"/>
 </element>
-<element name="R2" library="rcl" package="R0603" value="1k" x="62" y="58" smashed="yes"/>
-<element name="R3" library="rcl" package="R0603" value="1k" x="62" y="55" smashed="yes"/>
-<element name="R4" library="rcl" package="R0603" value="1k" x="62" y="52" smashed="yes"/>
-<element name="R8" library="rcl" package="R0603" value="10k" x="87" y="44" smashed="yes" rot="R180"/>
+<element name="R2" library="rcl" package="R0603" value="68" x="62" y="58" smashed="yes"/>
+<element name="R3" library="rcl" package="R0603" value="68" x="62" y="55" smashed="yes"/>
+<element name="R4" library="rcl" package="R0603" value="68" x="62" y="52" smashed="yes"/>
+<element name="R8" library="rcl" package="R0603" value="1k" x="87" y="44" smashed="yes" rot="R180"/>
 <element name="R9" library="rcl" package="R0603" value="10k" x="83" y="44" smashed="yes"/>
-<element name="R10" library="rcl" package="R0603" value="470" x="96" y="44" smashed="yes" rot="R180"/>
+<element name="R10" library="rcl" package="R0603" value="10k" x="96" y="44" smashed="yes" rot="R180"/>
 <element name="5V_REG" library="v-reg" package="SOT223" value="MIC5239" x="50.45" y="12.39" smashed="yes" rot="R180"/>
-<element name="R5" library="rcl" package="R0603" value="470" x="13" y="44" smashed="yes" rot="R180"/>
+<element name="R5" library="rcl" package="R0603" value="10k" x="13" y="44" smashed="yes" rot="R180"/>
 <element name="R6" library="rcl" package="R0603" value="10k" x="1" y="44" smashed="yes"/>
-<element name="R7" library="rcl" package="R0603" value="10k" x="5" y="44" smashed="yes" rot="R180"/>
-<element name="R11" library="rcl" package="R0603" value="1k" x="32" y="55" smashed="yes" rot="R180"/>
-<element name="R12" library="rcl" package="R0603" value="1k" x="32" y="52" smashed="yes" rot="R180"/>
-<element name="R13" library="rcl" package="R0603" value="1k" x="32" y="58" smashed="yes" rot="R180"/>
+<element name="R7" library="rcl" package="R0603" value="1k" x="5" y="44" smashed="yes" rot="R180"/>
+<element name="R11" library="rcl" package="R0603" value="68" x="32" y="55" smashed="yes" rot="R180"/>
+<element name="R12" library="rcl" package="R0603" value="68" x="32" y="52" smashed="yes" rot="R180"/>
+<element name="R13" library="rcl" package="R0603" value="68" x="32" y="58" smashed="yes" rot="R180"/>
 <element name="C9" library="rcl" package="C0603" value="10nF" x="16.714346875" y="19.196878125" smashed="yes" rot="MR0"/>
 <element name="C10" library="rcl" package="C0603" value="10nF" x="1.42296875" y="19.139553125" smashed="yes" rot="MR180"/>
 <element name="C7" library="rcl" package="C0805" value="1uF" x="56.49" y="12.74" smashed="yes"/>

@@ -12509,10 +12509,18 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <pad name="5" x="22.86" y="0" drill="1.1"/>
 <pad name="4" x="22.86" y="-10.16" drill="1.1"/>
 <wire x1="25.4" y1="12.7" x2="-25.4" y2="12.7" width="0" layer="21"/>
-<wire x1="-25.4" y1="12.7" x2="-25.4" y2="-12.7" width="0" layer="21"/>
+<wire x1="-25.4" y1="12.7" x2="-25.4" y2="7.25" width="0" layer="21"/>
+<wire x1="-25.4" y1="-7.25" x2="-25.4" y2="-12.7" width="0" layer="21"/>
 <wire x1="-25.4" y1="-12.7" x2="25.4" y2="-12.7" width="0" layer="21"/>
 <wire x1="25.4" y1="-12.7" x2="25.4" y2="12.7" width="0" layer="21"/>
 <text x="-3.81" y="2.54" size="1.27" layer="25">&gt;NAME</text>
+<wire x1="-28" y1="7.25" x2="-28" y2="-7.25" width="0" layer="21"/>
+<wire x1="-28" y1="-7.25" x2="-25.4" y2="-7.25" width="0" layer="21"/>
+<wire x1="-25.4" y1="-7.25" x2="-25.4" y2="7.25" width="0" layer="21"/>
+<wire x1="-25.4" y1="7.25" x2="-28" y2="7.25" width="0" layer="21"/>
+<wire x1="28" y1="-7.25" x2="28" y2="7.25" width="0" layer="21"/>
+<wire x1="28" y1="7.25" x2="25.4" y2="7.25" width="0" layer="21"/>
+<wire x1="25.4" y1="-7.25" x2="28" y2="-7.25" width="0" layer="21"/>
 </package>
 <package name="SOT-223">
 <wire x1="3.277" y1="1.778" x2="3.277" y2="-1.778" width="0.2032" layer="21"/>
@@ -12533,6 +12541,27 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <rectangle x1="-0.9271" y1="-3.1623" x2="0.9271" y2="-2.2987" layer="51" rot="R270"/>
 <rectangle x1="-3.2385" y1="-3.1623" x2="-1.3843" y2="-2.2987" layer="51" rot="R270"/>
 <rectangle x1="1.3843" y1="-3.1623" x2="3.2385" y2="-2.2987" layer="51" rot="R270"/>
+</package>
+<package name="TRACO2X1_50W">
+<pad name="1" x="-22.86" y="-7.62" drill="1.1"/>
+<pad name="2" x="-22.86" y="-2.54" drill="1.1"/>
+<pad name="3" x="-22.86" y="7.62" drill="1.1"/>
+<pad name="6" x="22.86" y="10.16" drill="1.1"/>
+<pad name="5" x="22.86" y="0" drill="1.1"/>
+<pad name="4" x="22.86" y="-10.16" drill="1.1"/>
+<wire x1="25.4" y1="12.7" x2="-25.4" y2="12.7" width="0" layer="21"/>
+<wire x1="-25.4" y1="12.7" x2="-25.4" y2="-12.7" width="0" layer="21"/>
+<wire x1="-25.4" y1="-12.7" x2="-15.55" y2="-12.7" width="0" layer="21"/>
+<wire x1="-15.55" y1="-12.7" x2="15.55" y2="-12.7" width="0" layer="21"/>
+<wire x1="15.55" y1="-12.7" x2="25.4" y2="-12.7" width="0" layer="21"/>
+<wire x1="25.4" y1="-12.7" x2="25.4" y2="12.7" width="0" layer="21"/>
+<text x="-3.81" y="2.54" size="1.27" layer="25">&gt;NAME</text>
+<wire x1="-15.55" y1="-12.7" x2="-15.55" y2="-14.5" width="0" layer="21"/>
+<wire x1="-15.55" y1="-14.5" x2="15.55" y2="-14.5" width="0" layer="21"/>
+<wire x1="15.55" y1="-14.5" x2="15.55" y2="-12.7" width="0" layer="21"/>
+<wire x1="15.55" y1="12.7" x2="15.55" y2="14.5" width="0" layer="21"/>
+<wire x1="15.55" y1="14.5" x2="-15.55" y2="14.5" width="0" layer="21"/>
+<wire x1="-15.55" y1="14.5" x2="-15.55" y2="12.7" width="0" layer="21"/>
 </package>
 </packages>
 <symbols>
@@ -12569,7 +12598,20 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <gate name="G$1" symbol="TEN-30" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="TRACO2X1">
+<device name="30W" package="TRACO2X1">
+<connects>
+<connect gate="G$1" pin="+VOUT" pad="4"/>
+<connect gate="G$1" pin="-VOUT" pad="5"/>
+<connect gate="G$1" pin="GND" pad="2"/>
+<connect gate="G$1" pin="ON/OFF" pad="3"/>
+<connect gate="G$1" pin="TRIM" pad="6"/>
+<connect gate="G$1" pin="VCC" pad="1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="50W" package="TRACO2X1_50W">
 <connects>
 <connect gate="G$1" pin="+VOUT" pad="4"/>
 <connect gate="G$1" pin="-VOUT" pad="5"/>
@@ -13038,8 +13080,8 @@ Source: http://www.molex.com/product/micro/87438.html</description>
 <part name="GND11" library="supply1" deviceset="GND" device=""/>
 <part name="GND12" library="supply1" deviceset="GND" device=""/>
 <part name="GND15" library="supply1" deviceset="GND" device=""/>
-<part name="TRACO_ELEC" library="custom" deviceset="TEN-30" device=""/>
-<part name="TRACO_SERVO" library="custom" deviceset="TEN-30" device="" value="TEN-50"/>
+<part name="TRACO_ELEC" library="custom" deviceset="TEN-30" device="30W"/>
+<part name="TRACO_SERVO" library="custom" deviceset="TEN-30" device="50W" value="TEN-50"/>
 <part name="OUT_12V_SERVO" library="con-phoenix-508" deviceset="MSTBA2" device=""/>
 <part name="C4" library="rcl" deviceset="C-EU" device="C1812" value="10uF"/>
 <part name="C5" library="rcl" deviceset="C-EU" device="C1812" value="10uF"/>
