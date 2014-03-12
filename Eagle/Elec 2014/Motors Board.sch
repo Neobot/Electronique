@@ -14893,7 +14893,7 @@ Resettable Fuse. Spark Fun Electronics SKU : COM-08357</description>
 <wire x1="38.1" y1="-35.56" x2="53.34" y2="-35.56" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$8" class="0">
+<net name="PWM1_" class="0">
 <segment>
 <pinref part="R2" gate="G$1" pin="1"/>
 <wire x1="-119.38" y1="-104.14" x2="-119.38" y2="78.74" width="0.1524" layer="91"/>
@@ -14909,7 +14909,7 @@ Resettable Fuse. Spark Fun Electronics SKU : COM-08357</description>
 <pinref part="OK5" gate="A" pin="C"/>
 </segment>
 </net>
-<net name="N$10" class="0">
+<net name="DIR1_" class="0">
 <segment>
 <pinref part="R3" gate="G$1" pin="1"/>
 <wire x1="-101.6" y1="60.96" x2="-121.92" y2="60.96" width="0.1524" layer="91"/>
@@ -14918,7 +14918,7 @@ Resettable Fuse. Spark Fun Electronics SKU : COM-08357</description>
 <wire x1="-121.92" y1="-101.6" x2="-137.16" y2="-101.6" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$11" class="0">
+<net name="BREAK1_" class="0">
 <segment>
 <pinref part="R4" gate="G$1" pin="1"/>
 <wire x1="-124.46" y1="-99.06" x2="-124.46" y2="53.34" width="0.1524" layer="91"/>
@@ -14942,7 +14942,7 @@ Resettable Fuse. Spark Fun Electronics SKU : COM-08357</description>
 <pinref part="OK2" gate="G$1" pin="C2"/>
 </segment>
 </net>
-<net name="N$23" class="0">
+<net name="DIR1" class="0">
 <segment>
 <pinref part="R8" gate="G$1" pin="1"/>
 <wire x1="-45.72" y1="58.42" x2="-45.72" y2="63.5" width="0.1524" layer="91"/>
@@ -14955,7 +14955,7 @@ Resettable Fuse. Spark Fun Electronics SKU : COM-08357</description>
 <junction x="-45.72" y="58.42"/>
 </segment>
 </net>
-<net name="N$24" class="0">
+<net name="BREAK1" class="0">
 <segment>
 <wire x1="-45.72" y1="53.34" x2="-10.16" y2="53.34" width="0.1524" layer="91"/>
 <wire x1="-10.16" y1="53.34" x2="-10.16" y2="30.48" width="0.1524" layer="91"/>
@@ -14968,7 +14968,7 @@ Resettable Fuse. Spark Fun Electronics SKU : COM-08357</description>
 <junction x="-45.72" y="53.34"/>
 </segment>
 </net>
-<net name="N$25" class="0">
+<net name="PWM1" class="0">
 <segment>
 <wire x1="-45.72" y1="83.82" x2="-7.62" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="-7.62" y1="83.82" x2="-7.62" y2="25.4" width="0.1524" layer="91"/>
@@ -14981,7 +14981,7 @@ Resettable Fuse. Spark Fun Electronics SKU : COM-08357</description>
 <junction x="-45.72" y="83.82"/>
 </segment>
 </net>
-<net name="N$14" class="0">
+<net name="PWM2" class="0">
 <segment>
 <wire x1="-55.88" y1="-111.76" x2="-40.64" y2="-111.76" width="0.1524" layer="91"/>
 <pinref part="R5" gate="G$1" pin="1"/>
@@ -14995,7 +14995,7 @@ Resettable Fuse. Spark Fun Electronics SKU : COM-08357</description>
 <pinref part="OK4" gate="A" pin="VO"/>
 </segment>
 </net>
-<net name="N$15" class="0">
+<net name="BREAK2" class="0">
 <segment>
 <pinref part="IC2" gate="G$1" pin="BREAK"/>
 <wire x1="-2.54" y1="-30.48" x2="-12.7" y2="-30.48" width="0.1524" layer="91"/>
@@ -15009,7 +15009,7 @@ Resettable Fuse. Spark Fun Electronics SKU : COM-08357</description>
 <pinref part="OK1" gate="G$1" pin="VO2"/>
 </segment>
 </net>
-<net name="N$16" class="0">
+<net name="DIR2" class="0">
 <segment>
 <pinref part="R7" gate="G$1" pin="1"/>
 <wire x1="-55.88" y1="-132.08" x2="-43.18" y2="-132.08" width="0.1524" layer="91"/>
@@ -15023,7 +15023,7 @@ Resettable Fuse. Spark Fun Electronics SKU : COM-08357</description>
 <pinref part="OK1" gate="G$1" pin="VO1"/>
 </segment>
 </net>
-<net name="N$17" class="0">
+<net name="DIR2_" class="0">
 <segment>
 <pinref part="R11" gate="G$1" pin="1"/>
 <wire x1="-106.68" y1="-88.9" x2="-106.68" y2="-129.54" width="0.1524" layer="91"/>
@@ -15032,7 +15032,7 @@ Resettable Fuse. Spark Fun Electronics SKU : COM-08357</description>
 <wire x1="-106.68" y1="-88.9" x2="-137.16" y2="-88.9" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$18" class="0">
+<net name="PWM2_" class="0">
 <segment>
 <pinref part="R12" gate="G$1" pin="1"/>
 <wire x1="-99.06" y1="-116.84" x2="-109.22" y2="-116.84" width="0.1524" layer="91"/>
@@ -15041,7 +15041,7 @@ Resettable Fuse. Spark Fun Electronics SKU : COM-08357</description>
 <wire x1="-109.22" y1="-91.44" x2="-109.22" y2="-116.84" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$19" class="0">
+<net name="BREAK2_" class="0">
 <segment>
 <wire x1="-104.14" y1="-86.36" x2="-104.14" y2="-137.16" width="0.1524" layer="91"/>
 <pinref part="R13" gate="G$1" pin="1"/>

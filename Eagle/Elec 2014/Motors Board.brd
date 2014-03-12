@@ -2056,7 +2056,7 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="2.27296875" y1="19.139553125" x2="2.265678125" y2="19.14684375" width="1.016" layer="16"/>
 <wire x1="2.265678125" y1="19.14684375" x2="2.265678125" y2="21.638078125" width="1.016" layer="16"/>
 </signal>
-<signal name="N$8">
+<signal name="PWM1_">
 <contactref element="R2" pad="1"/>
 <contactref element="CTRL" pad="P$1"/>
 <wire x1="53.13630625" y1="57.145278125" x2="60.295278125" y2="57.145278125" width="0.4064" layer="1"/>
@@ -2070,7 +2070,7 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="96" y1="60" x2="96.365" y2="58.635" width="0.4064" layer="1"/>
 <wire x1="96.365" y1="58.635" x2="96.365" y2="56.0734" width="0.4064" layer="1"/>
 </signal>
-<signal name="N$10">
+<signal name="DIR1_">
 <contactref element="R3" pad="1"/>
 <contactref element="CTRL" pad="P$2"/>
 <wire x1="51.63630625" y1="57.145278125" x2="51.63630625" y2="53.03630625" width="0.4064" layer="1"/>
@@ -2078,7 +2078,7 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="51.6" y1="53" x2="59.15" y2="53" width="0.4064" layer="1"/>
 <wire x1="59.15" y1="53" x2="61.15" y2="55" width="0.4064" layer="1"/>
 </signal>
-<signal name="N$11">
+<signal name="BREAK1_">
 <contactref element="R4" pad="1"/>
 <contactref element="CTRL" pad="P$3"/>
 <wire x1="50.13630625" y1="57.145278125" x2="50.13630625" y2="52.06369375" width="0.4064" layer="1"/>
@@ -2101,7 +2101,7 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="85" y1="58" x2="68.85" y2="58" width="0.4064" layer="1"/>
 <wire x1="68.85" y1="58" x2="62.85" y2="52" width="0.4064" layer="1"/>
 </signal>
-<signal name="N$23">
+<signal name="DIR1">
 <contactref element="R8" pad="1"/>
 <contactref element="IC1" pad="3"/>
 <contactref element="OK2" pad="7"/>
@@ -2116,7 +2116,7 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="87.85" y1="40.85" x2="87.85" y2="44" width="0.4064" layer="1"/>
 <wire x1="86" y1="16.653415625" x2="85.907384375" y2="16.5608" width="0.4064" layer="16"/>
 </signal>
-<signal name="N$24">
+<signal name="BREAK1">
 <contactref element="IC1" pad="4"/>
 <contactref element="R9" pad="1"/>
 <contactref element="OK2" pad="6"/>
@@ -2128,7 +2128,7 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="87.6" y1="33.2" x2="82.15" y2="38.65" width="0.4064" layer="1"/>
 <wire x1="82.15" y1="38.65" x2="82.15" y2="44" width="0.4064" layer="1"/>
 </signal>
-<signal name="N$25">
+<signal name="PWM1">
 <contactref element="IC1" pad="5"/>
 <contactref element="R10" pad="1"/>
 <contactref element="OK5" pad="6"/>
@@ -2142,7 +2142,7 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="96" y1="37" x2="96.85" y2="37.85" width="0.4064" layer="1"/>
 <wire x1="96.85" y1="37.85" x2="96.85" y2="44" width="0.4064" layer="1"/>
 </signal>
-<signal name="N$14">
+<signal name="PWM2">
 <contactref element="R5" pad="1"/>
 <contactref element="IC2" pad="5"/>
 <contactref element="OK4" pad="6"/>
@@ -2156,7 +2156,7 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="13.85" y1="44" x2="13.6455125" y2="44.2044875" width="0.4064" layer="1"/>
 <wire x1="13.6455125" y1="44.2044875" x2="13.6455125" y2="50.109234375" width="0.4064" layer="1"/>
 </signal>
-<signal name="N$15">
+<signal name="BREAK2">
 <contactref element="IC2" pad="4"/>
 <contactref element="R6" pad="1"/>
 <contactref element="OK1" pad="6"/>
@@ -2171,7 +2171,7 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="1" y1="35" x2="0.15" y2="35.15" width="0.4064" layer="1"/>
 <wire x1="0.15" y1="35.15" x2="0.15" y2="44" width="0.4064" layer="1"/>
 </signal>
-<signal name="N$16">
+<signal name="DIR2">
 <contactref element="R7" pad="1"/>
 <contactref element="IC2" pad="3"/>
 <contactref element="OK1" pad="7"/>
@@ -2187,7 +2187,7 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="5.8" y1="47.4" x2="5.85" y2="47.35" width="0.4064" layer="1"/>
 <wire x1="5.85" y1="47.35" x2="5.85" y2="44" width="0.4064" layer="1"/>
 </signal>
-<signal name="N$17">
+<signal name="DIR2_">
 <contactref element="R11" pad="1"/>
 <contactref element="CTRL" pad="P$7"/>
 <wire x1="44.13630625" y1="57.145278125" x2="44.13630625" y2="53.13630625" width="0.4064" layer="1"/>
@@ -2195,7 +2195,7 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="44" y1="53" x2="34.85" y2="53" width="0.4064" layer="1"/>
 <wire x1="34.85" y1="53" x2="32.85" y2="55" width="0.4064" layer="1"/>
 </signal>
-<signal name="N$18">
+<signal name="PWM2_">
 <contactref element="R12" pad="1"/>
 <contactref element="CTRL" pad="P$6"/>
 <wire x1="45.63630625" y1="57.145278125" x2="45.63630625" y2="51.63630625" width="0.4064" layer="1"/>
@@ -2203,7 +2203,7 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="45" y1="51.6" x2="33.25" y2="51.6" width="0.4064" layer="1"/>
 <wire x1="33.25" y1="51.6" x2="32.85" y2="52" width="0.4064" layer="1"/>
 </signal>
-<signal name="N$19">
+<signal name="BREAK2_">
 <contactref element="R13" pad="1"/>
 <contactref element="CTRL" pad="P$8"/>
 <wire x1="42.63630625" y1="57.145278125" x2="36.145278125" y2="57.145278125" width="0.4064" layer="1"/>

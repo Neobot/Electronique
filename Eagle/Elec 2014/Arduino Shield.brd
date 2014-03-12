@@ -2084,7 +2084,7 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="SUPPLIER" value="LM555CM" x="7.91" y="-28.23" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="OC_FARNELL" value="9488227" x="7.91" y="-28.23" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
-<element name="C2" library="rcl" package="C0603" value="0.01uF" x="27" y="29.5" smashed="yes" rot="MR180"/>
+<element name="C2" library="rcl" package="C0603" value="0.1uF" x="27" y="29.5" smashed="yes" rot="MR180"/>
 <element name="RA" library="rcl" package="R0603" value="330K" x="23.5" y="38" smashed="yes" rot="MR90"/>
 <element name="RB" library="rcl" package="R0603" value="3.3K" x="23.5" y="34.5" smashed="yes" rot="MR90"/>
 <element name="C3" library="rcl" package="C0603" value="1uF" x="23.5" y="31" smashed="yes" rot="MR270"/>
@@ -2643,7 +2643,7 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="76.2" y1="5.2" x2="77.23" y2="6.23" width="0.4064" layer="1"/>
 <wire x1="77.23" y1="6.23" x2="77.23" y2="12.46" width="0.4064" layer="1"/>
 </signal>
-<signal name="MOTOR2_DIR">
+<signal name="MOTOR1_DIR">
 <contactref element="U$1" pad="PWM9"/>
 <contactref element="MOTORS" pad="P$7"/>
 <wire x1="66" y1="11.5" x2="71.2" y2="16.7" width="0.4064" layer="1"/>
@@ -2657,7 +2657,7 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="60.944" y1="4" x2="59.48" y2="2.54" width="0.4064" layer="16"/>
 <via x="66" y="8.5" extent="1-16" drill="0.5"/>
 </signal>
-<signal name="MOTOR1_DIR">
+<signal name="MOTOR2_DIR">
 <contactref element="U$1" pad="PWM8"/>
 <contactref element="MOTORS" pad="P$2"/>
 <via x="64.5" y="8.5" extent="1-16" drill="0.5"/>
@@ -2910,7 +2910,7 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="40.5" y1="45.4" x2="40.5" y2="43.65" width="0.4064" layer="16"/>
 <wire x1="40.5" y1="43.65" x2="42" y2="42.35" width="0.4064" layer="16"/>
 </signal>
-<signal name="MOTOR1_PWM">
+<signal name="MOTOR2_BREAK">
 <contactref element="MOTORS" pad="P$1"/>
 <contactref element="U$1" pad="26"/>
 <wire x1="72.73" y1="22.96" x2="72.73" y2="26.27" width="0.4064" layer="1"/>
@@ -2933,7 +2933,7 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="11.5" y1="20.9" x2="14.5" y2="20.9" width="0.4064" layer="1"/>
 <wire x1="14.5" y1="20.9" x2="17" y2="23.4" width="0.4064" layer="1"/>
 </signal>
-<signal name="MOTOR1_BREAK">
+<signal name="MOTOR2_PWM">
 <contactref element="MOTORS" pad="P$3"/>
 <contactref element="U$1" pad="27"/>
 <wire x1="75.73" y1="22.96" x2="75.73" y2="26.27" width="0.4064" layer="1"/>
@@ -2959,7 +2959,7 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="11.1" y1="21.6" x2="14.1" y2="21.6" width="0.4064" layer="1"/>
 <wire x1="14.1" y1="21.6" x2="16.3" y2="23.8" width="0.4064" layer="1"/>
 </signal>
-<signal name="MOTOR2_PWM">
+<signal name="MOTOR1_BREAK">
 <contactref element="MOTORS" pad="P$6"/>
 <contactref element="U$1" pad="28"/>
 <wire x1="80.23" y1="22.96" x2="80.2" y2="26.9" width="0.4064" layer="1"/>
@@ -2984,7 +2984,7 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="10.8" y1="22.4" x2="13.8" y2="22.4" width="0.4064" layer="1"/>
 <wire x1="13.8" y1="22.4" x2="15.6" y2="24.2" width="0.4064" layer="1"/>
 </signal>
-<signal name="MOTOR2_BREAK">
+<signal name="MOTOR1_PWM">
 <contactref element="MOTORS" pad="P$8"/>
 <contactref element="U$1" pad="29"/>
 <wire x1="83.23" y1="22.96" x2="83.23" y2="27.07" width="0.4064" layer="1"/>

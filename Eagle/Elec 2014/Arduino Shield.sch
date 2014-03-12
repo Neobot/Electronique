@@ -7794,7 +7794,7 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <part name="GND17" library="supply1" deviceset="GND" device=""/>
 <part name="GND18" library="supply1" deviceset="GND" device=""/>
 <part name="U1" library="custom" deviceset="LM555CM" device="" value="TLC555"/>
-<part name="C2" library="rcl" deviceset="C-EU" device="C0603" value="0.01uF"/>
+<part name="C2" library="rcl" deviceset="C-EU" device="C0603" value="0.1uF"/>
 <part name="RA" library="rcl" deviceset="R-EU_" device="R0603" value="330K"/>
 <part name="RB" library="rcl" deviceset="R-EU_" device="R0603" value="3.3K"/>
 <part name="C3" library="rcl" deviceset="C-EU" device="C0603" value="1uF"/>
@@ -8558,7 +8558,7 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <wire x1="-58.42" y1="93.98" x2="-147.32" y2="93.98" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="MOTOR2_DIR" class="0">
+<net name="MOTOR1_DIR" class="0">
 <segment>
 <wire x1="-7.62" y1="104.14" x2="-7.62" y2="0" width="0.1524" layer="91"/>
 <pinref part="U$1" gate="G$1" pin="PWM9"/>
@@ -8567,7 +8567,7 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <wire x1="86.36" y1="0" x2="-7.62" y2="0" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="MOTOR1_DIR" class="0">
+<net name="MOTOR2_DIR" class="0">
 <segment>
 <wire x1="-5.08" y1="101.6" x2="-5.08" y2="12.7" width="0.1524" layer="91"/>
 <pinref part="U$1" gate="G$1" pin="PWM8"/>
@@ -8779,7 +8779,7 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <junction x="101.6" y="139.7"/>
 </segment>
 </net>
-<net name="MOTOR1_PWM" class="0">
+<net name="MOTOR2_BREAK" class="0">
 <segment>
 <pinref part="MOTORS" gate="G$1" pin="1"/>
 <wire x1="35.56" y1="15.24" x2="86.36" y2="15.24" width="0.1524" layer="91"/>
@@ -8787,7 +8787,7 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <wire x1="35.56" y1="58.42" x2="35.56" y2="15.24" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="MOTOR1_BREAK" class="0">
+<net name="MOTOR2_PWM" class="0">
 <segment>
 <wire x1="86.36" y1="10.16" x2="38.1" y2="10.16" width="0.1524" layer="91"/>
 <pinref part="MOTORS" gate="G$1" pin="3"/>
@@ -8795,7 +8795,7 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <wire x1="38.1" y1="58.42" x2="38.1" y2="10.16" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="MOTOR2_PWM" class="0">
+<net name="MOTOR1_BREAK" class="0">
 <segment>
 <pinref part="MOTORS" gate="G$1" pin="6"/>
 <wire x1="86.36" y1="2.54" x2="40.64" y2="2.54" width="0.1524" layer="91"/>
@@ -8803,7 +8803,7 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <wire x1="40.64" y1="58.42" x2="40.64" y2="2.54" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="MOTOR2_BREAK" class="0">
+<net name="MOTOR1_PWM" class="0">
 <segment>
 <pinref part="MOTORS" gate="G$1" pin="8"/>
 <wire x1="43.18" y1="-2.54" x2="86.36" y2="-2.54" width="0.1524" layer="91"/>
